@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="bookModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="books">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="names" Type="varchar" MaxLength="60" />
+          <Property Name="BookAuthor" Type="varchar" MaxLength="50" />
+          <Property Name="CategoryID" Type="int" />
+        </EntityType>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="categoryName" Type="nvarchar" MaxLength="40" />
+        </EntityType>
+        <Association Name="FK__books__CategoryI__6EF57B66">
+          <End Role="category" Type="Self.category" Multiplicity="0..1" />
+          <End Role="books" Type="Self.books" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="books">
+              <PropertyRef Name="CategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bookModelStoreContainer">
+          <EntitySet Name="books" EntityType="Self.books" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="category" EntityType="Self.category" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__books__CategoryI__6EF57B66" Association="Self.FK__books__CategoryI__6EF57B66">
+            <End Role="category" EntitySet="category" />
+            <End Role="books" EntitySet="books" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="bookModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="book">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="names" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="BookAuthor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CategoryID" Type="Int32" />
+          <NavigationProperty Name="category" Relationship="Self.FK__books__CategoryI__6EF57B66" FromRole="books" ToRole="category" />
+        </EntityType>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="categoryName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="books" Relationship="Self.FK__books__CategoryI__6EF57B66" FromRole="category" ToRole="books" />
+        </EntityType>
+        <Association Name="FK__books__CategoryI__6EF57B66">
+          <End Role="category" Type="Self.category" Multiplicity="0..1" />
+          <End Role="books" Type="Self.book" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="books">
+              <PropertyRef Name="CategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bookEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="books" EntityType="Self.book" />
+          <EntitySet Name="categories" EntityType="Self.category" />
+          <AssociationSet Name="FK__books__CategoryI__6EF57B66" Association="Self.FK__books__CategoryI__6EF57B66">
+            <End Role="category" EntitySet="categories" />
+            <End Role="books" EntitySet="books" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="bookModelStoreContainer" CdmEntityContainer="bookEntities">
+          <EntitySetMapping Name="books">
+            <EntityTypeMapping TypeName="bookModel.book">
+              <MappingFragment StoreEntitySet="books">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="names" ColumnName="names" />
+                <ScalarProperty Name="BookAuthor" ColumnName="BookAuthor" />
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="categories">
+            <EntityTypeMapping TypeName="bookModel.category">
+              <MappingFragment StoreEntitySet="category">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="categoryName" ColumnName="categoryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
