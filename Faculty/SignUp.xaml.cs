@@ -45,7 +45,7 @@ namespace Faculty
                 }
                 else
                 {
-                    MessageBox.Show("The Email Have account!");
+                    MessageBox.Show("The Email Have account!!");
                 }
                 
             }

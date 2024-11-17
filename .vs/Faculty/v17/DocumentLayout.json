@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ahmed\\Desktop\\Faculty\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|c:\\users\\ahmed\\desktop\\faculty\\faculty\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|solutionrelative:faculty\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|c:\\users\\ahmed\\desktop\\faculty\\faculty\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|solutionrelative:faculty\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|C:\\Users\\Ahmed\\Desktop\\Faculty\\faculty\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|solutionrelative:faculty\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|C:\\Users\\Ahmed\\Desktop\\Faculty\\faculty\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|solutionrelative:faculty\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|C:\\Users\\Ahmed\\Desktop\\Faculty\\faculty\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|solutionrelative:faculty\\adminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|c:\\users\\ahmed\\desktop\\faculty\\faculty\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|solutionrelative:faculty\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05017FAA-DFB8-4603-B222-4463DD3B10C4}|Faculty\\Faculty.csproj|C:\\Users\\Ahmed\\Desktop\\Faculty\\faculty\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -51,43 +55,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SignUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\SignUp.xaml.cs",
+              "RelativeDocumentMoniker": "Faculty\\SignUp.xaml.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\SignUp.xaml.cs",
+              "RelativeToolTip": "Faculty\\SignUp.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wC8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T18:36:21.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Faculty\\Login.xaml.cs",
               "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\Login.xaml.cs",
               "RelativeToolTip": "Faculty\\Login.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAewCYAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAawCYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T13:33:19.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApplicationForm.xaml",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\ApplicationForm.xaml",
               "RelativeDocumentMoniker": "Faculty\\ApplicationForm.xaml",
               "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\ApplicationForm.xaml",
               "RelativeToolTip": "Faculty\\ApplicationForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T12:43:15.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T12:43:15.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\App.xaml",
               "RelativeDocumentMoniker": "Faculty\\App.xaml",
               "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\App.xaml",
               "RelativeToolTip": "Faculty\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T12:43:13.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T12:43:13.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\Login.xaml",
               "RelativeDocumentMoniker": "Faculty\\Login.xaml",
@@ -99,43 +114,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdminPage.xaml",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\AdminPage.xaml",
               "RelativeDocumentMoniker": "Faculty\\AdminPage.xaml",
               "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\AdminPage.xaml",
               "RelativeToolTip": "Faculty\\AdminPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T12:41:56.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T12:41:56.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AdminPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\AdminPage.xaml.cs",
               "RelativeDocumentMoniker": "Faculty\\AdminPage.xaml.cs",
               "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\AdminPage.xaml.cs",
               "RelativeToolTip": "Faculty\\AdminPage.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T12:41:57.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SignUp.xaml",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\SignUp.xaml",
               "RelativeDocumentMoniker": "Faculty\\SignUp.xaml",
               "ToolTip": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\SignUp.xaml",
               "RelativeToolTip": "Faculty\\SignUp.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T12:43:25.002Z"
+              "WhenOpened": "2024-11-15T12:43:25.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\Student.cs",
               "RelativeDocumentMoniker": "Faculty\\Student.cs",
@@ -147,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FacultyModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Ahmed\\Desktop\\Faculty\\Faculty\\FacultyModel.edmx",
               "RelativeDocumentMoniker": "Faculty\\FacultyModel.edmx",
