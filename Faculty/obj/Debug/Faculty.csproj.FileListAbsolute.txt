@@ -1,0 +1,58 @@
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\Faculty.exe.config
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\Faculty.exe
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\Faculty.pdb
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.csproj.AssemblyReference.cache
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\ApplicationForm.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\MainWindow.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\App.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty_MarkupCompile.cache
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty_MarkupCompile.lref
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\ApplicationForm.baml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\MainWindow.baml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.g.resources
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.Properties.Resources.resources
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.csproj.GenerateResource.cache
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.csproj.CoreCompileInputs.cache
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.exe
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.pdb
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\AdminPage.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Login.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\SignUp.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\AdminPage.baml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Login.baml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\SignUp.baml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\EntityFramework.dll
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\EntityFramework.SqlServer.dll
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\EntityFramework.xml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\bin\Debug\EntityFramework.SqlServer.xml
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty_Content.g.cs
+D:\Elsewedy\Desktop 2024-2025\Assignment\Faculty\Faculty\obj\Debug\Faculty.csproj.CopyComplete
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\Faculty.exe.config
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\Faculty.exe
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\Faculty.pdb
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\EntityFramework.dll
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\EntityFramework.xml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.csproj.AssemblyReference.cache
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\AdminPage.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\ApplicationForm.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Login.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\MainWindow.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\SignUp.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\App.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty_Content.g.cs
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty_MarkupCompile.cache
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty_MarkupCompile.lref
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\AdminPage.baml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\ApplicationForm.baml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Login.baml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\MainWindow.baml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\SignUp.baml
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.g.resources
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.Properties.Resources.resources
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.csproj.GenerateResource.cache
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.csproj.Up2Date
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.exe
+C:\Users\Ahmed\Desktop\Faculty\Faculty\obj\Debug\Faculty.pdb
